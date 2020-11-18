@@ -1,0 +1,338 @@
+body {
+    background: #F5F5F5;
+
+}
+
+.background {
+    display: grid;
+    background-color: white;
+    width: 900px;
+    height: 1240px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.box-1 {
+    background-color: #263238;
+    width: 280px;
+    height: 440px;
+
+}
+
+.box-2 {
+    background-color: #37474F;
+    width: 280px;
+    height: 800px;
+}
+
+.my-img {
+    width: 200px;
+    border-radius: 360px;
+    margin-top: 30px;
+
+}
+
+.name-info {
+    font-family: "Gill Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.person {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    padding: 1em;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+
+.user {
+    width: 25px;
+    grid-row: 1;
+    background-color: #263238;
+    border-radius: 360px;
+}
+
+
+.mobile {
+    background-color: #263238;
+    width: 25px;
+    border-radius: 360px;
+    grid-row: 2;
+}
+
+.location {
+    background-color: #263238;
+    width: 25px;
+    border-radius: 360px;
+    grid-row: 3;
+}
+
+.envelope {
+    background-color: #263238;
+    width: 25px;
+    border-radius: 360px;
+    grid-row: 4;
+}
+
+.dmy {
+    color: white;
+}
+
+.contact {
+    color: white;
+}
+
+.address {
+    color: white;
+}
+
+.gmail {
+    color: white;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr;
+    grid-gap: 1em;
+    padding: 1em;
+    justify-items: center;
+    margin-top: 25px;
+    font-family: Ebrima;
+}
+
+.skill-logo {
+    width: 30px;
+    height: auto;
+    margin-top: 5px;
+}
+
+.skill-text {
+    font-size: 25px;
+    color: white;
+}
+
+.loading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+
+
+}
+
+.loading-line-text {
+    display: grid;
+    grid-gap: 1em;
+}
+
+.html {
+    color: white;
+}
+
+.css {
+    color: white;
+}
+
+.javascript {
+    color: white;
+}
+
+.react {
+    color: white;
+}
+
+.loading-line {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+}
+
+.loading-html {
+    background-color: #263238;
+    width: 120px;
+    height: 10px;
+}
+
+.loading-html-2 {
+    background-color: white;
+    width: 100px;
+    height: 10px;
+}
+
+.loading-css {
+    background-color: #263238;
+    width: 120px;
+    height: 10px;
+}
+
+.loading-css-2 {
+    background-color: white;
+    width: 90px;
+    height: 10px;
+}
+
+.loading-javascript {
+    background-color: #263238;
+    width: 120px;
+    height: 10px;
+}
+
+.loading-javascript-2 {
+    background-color: white;
+    width: 80px;
+    height: 10px;
+}
+
+.loading-react {
+    background-color: #263238;
+    width: 120px;
+    height: 10px;
+}
+
+.loading-react-2 {
+    background-color: white;
+    width: 30px;
+    height: 10px;
+}
+
+.pc-program {
+    padding: 1em;
+    font-size: 17px;
+    color: white;
+    margin-top: 3px;
+    font-family: Calibri;
+}
+
+.pc-text-program {
+    padding: 5px;
+    font-size: 23px;
+    font-family: "Candara Light";
+}
+
+.pc-text-program {
+    width: 5px;
+    height: 15px;
+    color: white;
+}
+
+.ul {
+    margin-top: 50px;
+}
+
+
+.big-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: end;
+    grid-column: 2;
+    width: 620px;
+    height: 1240px;
+}
+
+.self {
+    margin-top: 30px;
+}
+
+.education {
+    color: #263238;
+    font-family: system-ui;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.hr {
+    color: #263238;
+    width: 550px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.school {
+    color: #263238;
+    font-family: system-ui;
+    margin-left: 25px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.institute {
+    color: #263238;
+    font-family: system-ui;
+    margin-left: 25px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.dj {
+    color: #263238;
+    font-family: system-ui;
+    margin-left: 25px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.work-title {
+    margin-top: 40px;
+    font-family: Candara;
+}
+
+.work {
+    color: #263238;
+    font-family: system-ui;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.project-title {
+    color: #263238;
+    font-family: system-ui;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.language {
+    color: #263238;
+    margin-left: 20px;
+    margin-top: 55px;
+}
+
+.language-title {
+    color: #263238;
+    font-size: 25px;
+}
+
+.language-level {
+    color: #263238;
+    font-size: 15px;
+}
+
+.hobby {
+    color: #263238;
+    margin-left: 25px;
+    margin-bottom: 100px;
+}
+
+.hobby-listed {
+    color: #263238;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.hobby-text {
+    color: #263238;
+    font-size: 20px;
+}
+
+
+
+
+
+
